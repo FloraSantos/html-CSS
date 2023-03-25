@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabelas</title>
+    <style>
+        table{
+            border-collapse:collapse ;
+        }
+        th,td {
+            border: solid 1px black;
+         }
+        caption{
+            font-size: 1.1em;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
+            <tr>
+                <th>grupo</th>
+                <th>nomes</th>
+                <th>filmes</th>
+            </tr>
+            
+            <body>
+                <tr>
+                    <th rowspan="3">mulheres</th>
+                    <td>maria</td>
+                    <td>galaxias</td>
+                </tr>
+                <tr>
+                    <td>rosa</td>
+                    <td>aereo</td>
+                </tr>
+                <tr>
+                    <td>marcia</td>
+                    <td>vingsnça</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">homens</th>
+                    <td>marcos</td>
+                    <td>carros</td>
+                    
+                </tr>
+                <tr>
+                    <td>yuri</td>
+                    <td>guerra</td>
+                </tr>
+            </body>
+        </thead>
+    </table>
+    
+</body>
+</html>
