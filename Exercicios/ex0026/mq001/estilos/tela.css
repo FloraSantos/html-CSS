@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{margin: 0%;
+padding: 0%;}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: rgb(167, 158, 158);
+    padding: 12px;
+    padding-bottom: 9px;
+
+}
+h1{
+    text-align: center;
+}
+menu ul{
+        list-style-type: none;
+        background-color: rgb(70, 64, 64);
+        padding: 5px;
+        margin-right: -13px;
+        margin-left: -12px;
+        margin-bottom: -7px;
+        
+}
+menu li{
+    display: inline-block;
+    background-color: rgb(196, 183, 183);
+    padding: 3px;
+    margin-left: 3px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+article{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}

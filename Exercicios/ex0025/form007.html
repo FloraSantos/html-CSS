@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex form</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estados</label>
+            <select name="estado" id="iest">
+                <option value="" selected> --Escolha--</option>
+                <optgroup label="Região sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+            </select>
+            
+        </p>
+
+
+        <p>
+            <label for="idlist">Profissão</label>
+            <input type="text" name="list" id="idlist" list="lista">
+            <datalist id="lista">
+                <option value="dev">Desenvolvedor</option>
+                <option value="prof">Professor</option>
+            </datalist>
+            
+        </p>
+
+        <p>
+            <label for="idmsg">Mensagem:</label> <br>
+
+            <textarea name="msg" id="idmsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+        
+    </form>
+</body>
+</html>
