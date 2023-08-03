@@ -1,3 +1,15 @@
 @charset  "UTF-8";
 
 /*Em pé*/
+
+html, body{
+    background-color: yellow;
+     background-image: url(../imagens/cev-portrait.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: left bottom;
+}
+
+h1{
+    color: black;
+}
